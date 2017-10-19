@@ -45,13 +45,11 @@ Queue *Enqueue(Queue *q,bookrequest *ptr)
      q->req[id]->rear = ptr;
      q->req[id]->front = ptr;
      q->req[id]->next = NULL;
-     printf("Added element to empty queue %d\n",id);
    }
    else
    {
      q->req[id]->rear->next = ptr;
      q->req[id]->rear = ptr;
-     printf("Added element to existing queue for id %d\n",id);
    }
    return q;
 }
@@ -273,7 +271,6 @@ Queue *getBookReqDB(Queue *q)
            exit(1);
    }
   fseek(fp,0,SEEK_SET);
-  printf("Read req records now\n");
   while((fread(key,sizeof(bookrequest),1,fp))==1)
   {
     if(key->book_id == 0) continue;

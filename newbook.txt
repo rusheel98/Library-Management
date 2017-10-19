@@ -1,0 +1,7 @@
+0131,Tales of Mystery and Imagination,Edgar Allan Poe,Novel,289.2,6,Progressive rock,
+0234,The Daughter of Time,Josephine Tey,Novel,150,8,Mystery,
+0072,Presumed Innocent,Scott Turow,Novel,690,7,Mystery,
+0046,The Spy Who Came in From the Cold,Real Story,John Le Carre,Novel,380,5,Mystery,
+0004,The Moonstone,Wilkie Collins,Novel,120,6,Mystery,
+1926,The Big Sleep,Raymond Chandler,Novel,302,9,Fiction,
+0065,Rebecca,Daphne du Maurier,Novel,406,2,Mystery,
