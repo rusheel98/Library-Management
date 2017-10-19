@@ -15,7 +15,7 @@ General Information
 How to Setup,Execute & Compile?
 
 Source Files: 
-p013.c 
+lms.c 
 lib.c
 student.c
 book.c
@@ -32,8 +32,8 @@ Sample Test Data(optional):
 newbook.txt
 
 Complie Instructions: Copy all source files to a folder and compile them using following instuction.
-                                      gcc -c p013.c lib.c student.c book.c book_issue.c
-creating LMS executable: gcc -o lms p013.c lib.c student.c book.c book_issue.c 
+                                      gcc -c lms.c lib.c student.c book.c book_issue.c
+creating LMS executable: gcc -o lms lms.c lib.c student.c book.c book_issue.c 
 
 Setup/Prerequiste : Copy input data files to the folder in which executable is created before running the application.
 
